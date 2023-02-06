@@ -24,7 +24,7 @@ public class EntradaBlogAMD {
 
     /**
      *
-     * @return
+     * @return cad
      */
     @Override
     public String toString(){
@@ -36,7 +36,7 @@ public class EntradaBlogAMD {
 
     /**
      *
-     * @return
+     * @return id
      */
 
     public int getId(){
@@ -45,7 +45,7 @@ public class EntradaBlogAMD {
 
     /**
      *
-     * @return
+     * @return texto
      */
 
     public String getTexto(){
@@ -54,7 +54,7 @@ public class EntradaBlogAMD {
 
     /**
      *
-     * @return
+     * @return autor
      */
     public String getAutor(){
         return this.autor.toUpperCase();
@@ -62,7 +62,7 @@ public class EntradaBlogAMD {
 
     /**
      *
-     * @return
+     * @return autor
      */
     public String devuelveAutor(){
         return this.autor;
